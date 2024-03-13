@@ -1,0 +1,59 @@
+12,68,47,67,12,56,72,3,67,14,89,19,28,84,46,96,43,20,28,1,75,99,87,90,92,74,66,83,85,15,17,46,56,98,46,8,58,74,6,8,30,36,40,52,94,31,91,9,57,78,6,67,74,25,56,56,67,79,72,49,65,11,42,59,70,37,34,17,3,26,97,39,99,92,66,17,72,99,57,23,68,7,46,35,97,11,10,59,96,71,71 - false
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi - 74,66,89,14,38,15,96,72,17,69,94,71,29,32,96,37,49,42,44,60,44,47,92,24,50,50,15,68,96,19,32,30,8
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+banana / apple
+const getRandomSubset = (array, size) => array.slice(0, size);
+function addNumbers(a, b) { return a + b; }
+
+29,22,32,99,54,45 * 69
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const sum = (a, b) => a + b;
+87,96,67,58,45,9,58,41,46,89,59,17,29,7,82,7,78,53,49,5,86,52,17,82,31,20,30,88,89,35,87,1,15,39,23,11,14,9,5,24,28,83,73,52,49,88,95,68,57,99,39,5,49,62,67,77,58,75,5,80,81,59,3,96,9,63,15,95,51,72,85,85,74,52,97,49,29,66,59,1 * orange
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+apple
+
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+apple
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+function addNumbers(a, b) { return a + b; }
+const randomNumber = getRandomNumber();
+31,39,44,33,34,42,5,66,82,43,44,14,2,48,0,63,73,5,82,74,63,40,4,40,90,86,54,32,54,24,91,18,72,45,7,27,21,3,41,22,13,68,52,22,98,93,85,30,71,30,34,92,76,9,36,71,43,96,97,63,59,14,9,95,99,26,43,27,46,19,65,45,52,42 - false
+const capitalizeString = str => str.toUpperCase();
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+grape
+
+const capitalizeString = str => str.toUpperCase();
+const sum = (a, b) => a + b;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const reverseString = str => str.split("").reverse().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape / 90,76,94,26,21,6,24,94,11,34,14,64,83,20,28,5,86,89,94,66,97,73,91,85,57,27,77,58,19,41,40,1,4,71,7,50,97,98,39,67,29,51,75,81,30,35,33,96,2,43,30,52,38,38,9,9,94,8,2,27,80,54,52,81,19,30,99,30,23,79,4,74,72,37,51,65,5,45,16,23,24
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+banana
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+76 - 37,60,74,64,88,93,77,84,38,64,68,42,3,97,0,37,96,1,44,37,24,84,68,76,5,73,98,77,45,86,29,57,53,94,27,59,95,66,17,33,23,20,70,51,64,3,41,41,91,41,62,53,88,36,19,67,85,61,18,22,58,84,64,36,68,17,24,86,76,43,19,30,42,15,16,31,80,66,65,10,77,12,49,4,44,25,10,74,14,60,75,46,58,34,12,15,52,16,40
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getUniqueValues = array => [...new Set(array)];
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+8 * 94
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
