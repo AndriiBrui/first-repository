@@ -1,0 +1,42 @@
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+18 - grape
+const formatDate = date => new Date(date).toLocaleDateString();
+
+62 - kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+55 * 54
+const getUniqueValues = array => [...new Set(array)];
+64 - 86
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+23 * 5
+const variableName = getRandomNumber();
+
+35 - true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+59 - banana
+class MyClass { constructor() { this.property = getRandomString(); } }
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const sum = (a, b) => a + b;
+80 - 75
+// This is a comment
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+46 + true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+kiwi / 14
+function addNumbers(a, b) { return a + b; }
+console.log(getRandomString());
+false + 8,76,27,58,59,39,71,13,79,6,55,72,77,10,0,19,82,33,93,45,10,90,20,66,29,0,29,65,60,9,32,43,16,2,74,68,29,64,10,68,75,38,75,42,18,47,66,66,99,81,89,65,98,96,10,53,65,29,21,43,15,26
+const sum = (a, b) => a + b;
+const getRandomElement = array => array[getRandomIndex(array)];
+
