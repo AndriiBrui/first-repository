@@ -1,0 +1,87 @@
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const greet = name => `Hello, ${name}!`;
+const formatDate = date => new Date(date).toLocaleDateString();
+orange
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+58 - 91,19,82,9,55,58,37,35,11,35,41,66,13,85,44,53,87,14,16,70,33,0
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+apple
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange + 60,18,10,73,12,31,78,24,68,19,52,42,45,4,5,44,65,16,60,72,70,36,26,23,17,24,83,12,43,65,29
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+false + false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const isEven = num => num % 2 === 0;
+kiwi
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+4,36,24,78,58,34,18,76,9,19,23,92,96,54,63,48,51,0,84,76,20,74,18,52,23,25 * true
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+false / 14,77,23,83,80,20,99,44,18,43,59,71,29,79,40,3,93
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+false * 37
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape / true
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const sum = (a, b) => a + b;
+const getRandomSubset = (array, size) => array.slice(0, size);
+87 + 16
+const removeDuplicates = array => Array.from(new Set(array));
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+81 / grape
+
+const variableName = getRandomNumber();
+
+grape
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+class MyClass { constructor() { this.property = getRandomString(); } }
+banana - 0
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+42 * 14,75,60,25,38,86,98,84,19,21,19,66,53,9,18,69,49,81,71,4,36,65,87,72,47,48,82,18,24,9,17,60,84,61,74,45,41,15,16,63,42,46,21,28,24,86,29,62,91,24,33,60,41,62,83,20,30,7,73,30
+const removeDuplicates = array => Array.from(new Set(array));
+26 - 21,62,30,88,64,35,5,47,20,73,80,31,81,23,19,55,51,46,4,91,85,73,93,94,61,42,34,8,52,37,19,7,83,77,70,77,27,97,8,45,16,72,58,49,97,94,4,94,40,49,6,9,74,1,32,78,21,90,15,20,31,88,1,65,73,59,92,82,37,82,47,22,10,42,97,55,98,16,94,59,98,86,32,15,74,24,29,86,74,24,4,91,88,97,75,59,16,55,21
+
+const variableName = getRandomNumber();
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana / apple
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+orange / 60,8,10,88,33,25,25,31,45,50,57,15,19,8,54,28,91,67,68,43,55,4,40,20,8,28,97,93,28,54,82,53,45,99,43,8,86,95,63,30,17,64
+const greet = name => `Hello, ${name}!`;
